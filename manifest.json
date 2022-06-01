@@ -1,5 +1,5 @@
 {
-    "name": "MinIO server",
+    "name": "Demo Guilhem",
     "id": "minio",
     "packaging_format": 1,
     "description": {
@@ -19,7 +19,7 @@
         "name": "Raoul de Limezy"
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 4.3.1"
     },
     "multi_instance": false,
     "services": [
