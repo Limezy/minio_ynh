@@ -74,14 +74,6 @@ then
 		then
 			ynh_die --message="Sorry, your MinIO instance requires a complex manual migration. Please contact Limezy on the Yunohost forum"
 		fi
-		if ynh_compare_current_package_version --comparison eq --version 2022.11.11~ynh1
-		then
-			ynh_die --message="Sorry, your MinIO instance requires a complex manual migration. Please contact Limezy on the Yunohost forum"
-		fi
-		if ynh_compare_current_package_version --comparison eq --version 2023.01.11~ynh1
-		then
-			ynh_die --message="Sorry, your MinIO instance requires a complex manual migration. Please contact Limezy on the Yunohost forum"
-		fi
 	popd
 	ynh_secure_remove --file="$datadir"
 	ynh_exec_warn_less mkdir "$datadir"
